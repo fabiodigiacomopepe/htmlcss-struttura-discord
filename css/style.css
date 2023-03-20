@@ -5,9 +5,10 @@
     padding: 0;
 }
 
+
 /* regole header */
 header {
-    min-height: 500px;
+    padding-bottom: 30px;
 }
 
 .header-container {
@@ -32,6 +33,27 @@ nav {
     width: 10%;
 }
 
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.title {
+    width: 50%;
+}
+
+.sub-title {
+    width: 50%;
+}
+
+.button-section {
+    width: 50%;
+}
+
+
 /* regole DEBUG */
 header {
     background-color: rgb(53, 53, 177);
@@ -43,7 +65,6 @@ nav {
 }
 
 .header-container {
-    min-height: 350px;
     background-color: blue;
 }
 
@@ -57,4 +78,26 @@ nav {
 
 .login {
     background-color: brown;
+}
+
+.jumbotron {
+    background-color: aqua;
+}
+
+.title {
+    background-color: brown;
+    flex-basis: 35px;
+    border: 2px solid blue;
+}
+
+.sub-title {
+    background-color: brown;
+    flex-basis: 50px;
+    border: 2px solid blue;
+}
+
+.button-section {
+    background-color: brown;
+    flex-basis: 35px;
+    border: 2px solid blue;
 }
