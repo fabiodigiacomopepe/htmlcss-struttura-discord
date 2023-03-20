@@ -1,0 +1,60 @@
+/* regole generali pagina */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* regole header */
+header {
+    min-height: 500px;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.nav-link {
+    width: 45%;
+}
+
+.login {
+    width: 10%;
+}
+
+/* regole DEBUG */
+header {
+    background-color: rgb(53, 53, 177);
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.header-container {
+    min-height: 350px;
+    background-color: blue;
+}
+
+.logo {
+    background-color: brown;
+}
+
+.nav-link {
+    background-color: brown;
+}
+
+.login {
+    background-color: brown;
+}
