@@ -66,6 +66,10 @@ main section {
     padding: 50px;
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
 .col {
     width: 45%;
 }
