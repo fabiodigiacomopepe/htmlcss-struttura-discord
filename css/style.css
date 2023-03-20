@@ -109,6 +109,11 @@ main section {
 }
 
 /* regole footer */
+footer section {
+    display: flex;
+    justify-content: center;    
+}
+
 .footer-container {
     width: 70%;
     display: flex;
@@ -118,11 +123,24 @@ main section {
     padding-bottom: 30px;
 }
 
-footer section {
+.col-footer {
+    width: 15%;
+}
+
+.extra-footer-container {
     display: flex;
     justify-content: center;
-    
+    padding-bottom: 30px;
 }
+
+.extra-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 70%;
+}
+
+
 
 
 
@@ -245,7 +263,27 @@ footer section {
 
 .col-footer {
     min-height: 200px;
-    width: 15%;
     background-color: brown;
     border: 2px solid black;
+}
+
+.extra-footer-container {
+    background-color: aquamarine;
+}
+
+.extra-footer {
+    background-color: blueviolet;
+    min-height: 20px;
+}
+
+.logo-footer {
+    width: 15%;
+    min-height: 30px;
+    background-color: brown;
+}
+
+.button-footer {
+    width: 15%;
+    min-height: 30px;
+    background-color: brown;
 }
